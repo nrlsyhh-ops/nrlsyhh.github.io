@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MUNCH Food Ordering and Restaurant Management Website project by Nurul Aiesyah Fatihah.">
+    <title>MUNCH Web System | Nurul Aiesyah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" class="logo">Nurul Aiesyah Fatihah Norazehasram</a>
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+        <ul class="link-group">
+            <li><a href="index.html#home" class="nav-link">Home</a></li>
+            <li><a href="index.html#projects" class="nav-link active">Projects</a></li>
+            <li><a href="index.html#about" class="nav-link">About</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="project-detail-page pdf-report-page">
+        <section class="section-block detail-hero report-hero">
+            <div class="detail-hero-content">
+                <a href="index.html#projects" class="back-link">← Back to portfolio</a>
+                <p class="eyebrow">Web System · PHP · MySQL</p>
+                <h1>MUNCH — Food Ordering & Restaurant Management Website</h1>
+                <p class="hero-text">
+                    A web-based restaurant ordering and management system that supports customer ordering,
+                    reservations, staff order handling, owner menu management and business reporting features.
+                </p>
+                <div class="hero-actions">
+                    <a href="#architecture-section" class="btn primary-btn">View System Architecture</a>
+                    <a href="munch-system-architecture.pdf" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">Open Architecture PDF</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block detail-content-section">
+            <div class="report-stat-grid">
+                <div>
+                    <strong>Project Type</strong>
+                    <span>Academic Web System Project</span>
+                </div>
+                <div>
+                    <strong>Tech Stack</strong>
+                    <span>HTML, CSS, JavaScript, PHP and MySQL</span>
+                </div>
+                <div>
+                    <strong>Main Users</strong>
+                    <span>Customer, Staff and Owner</span>
+                </div>
+                <div>
+                    <strong>Focus Area</strong>
+                    <span>Ordering, reservation, reports and system management</span>
+                </div>
+            </div>
+
+            <div class="detail-grid">
+                <article class="detail-card main-detail-card">
+                    <h2>Project Overview</h2>
+                    <p>
+                        MUNCH is a food ordering and restaurant management website designed to make restaurant operations more organized.
+                        Customers can browse menus, add items to cart, place orders, make reservations and view order details.
+                        Staff can manage incoming orders and update order status, while the owner can monitor orders, manage menu items,
+                        manage staff accounts and view sales reports.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h2>My Role</h2>
+                    <p>
+                        Contributed to UI/UX design, frontend development, database structure planning, PHP-MySQL connection,
+                        reservation functionality, staff ordering functions and system documentation such as ERD, UML diagrams and flowcharts.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h2>Tools & Concepts</h2>
+                    <div class="tech-list detail-tech-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>UI/UX</span>
+                        <span>Database Design</span>
+                        <span>System Architecture</span>
+                    </div>
+                </article>
+
+                <article class="detail-card main-detail-card">
+                    <h2>System Architecture Summary</h2>
+                    <ul class="detail-list">
+                        <li><strong>Presentation Layer:</strong> customer, staff and owner interfaces for login, menu browsing, ordering, order tracking and management.</li>
+                        <li><strong>Application Layer:</strong> customer modules, staff modules and owner/admin modules that handle cart, orders, status updates, menu management and reporting.</li>
+                        <li><strong>Database Layer:</strong> MySQL database for customer information, order information, sales information, menu information, staff information, receipt information and inventory information.</li>
+                        <li><strong>Payment Flow:</strong> payment gateway and transaction process connected to the ordering workflow.</li>
+                    </ul>
+                </article>
+
+                <article id="architecture-section" class="detail-card main-detail-card pdf-viewer-card">
+                    <div class="slide-card-header">
+                        <div>
+                            <h2>System Architecture PDF</h2>
+                            <p>
+                                View the MUNCH system architecture diagram directly from this portfolio.
+                            </p>
+                        </div>
+                        <div class="project-actions compact-actions">
+                            <a href="munch-system-architecture.pdf" class="project-btn" target="_blank" rel="noopener noreferrer">Open Architecture</a>
+                            <a href="munch-system-architecture.pdf" class="project-btn outline" download>Download PDF</a>
+                        </div>
+                    </div>
+                    <div class="pdf-preview-box">
+                        <iframe src="munch-system-architecture.pdf" title="MUNCH Web Based Ordering System Architecture PDF"></iframe>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

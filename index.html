@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Nurul Aiesyah Fatihah, Diploma in Computer Science student and aspiring Software, Web and QA intern.">
+    <title>Nurul Aiesyah | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Nurul Aiesyah Fatihah Norazehasram</a>
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+        <ul class="link-group">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="home-section section-block">
+            <div class="home-content">
+                <p class="eyebrow">Computer Science Student · Aspiring Software / Web / QA Intern</p>
+                <h1>Hi, I'm <span>Nurul Aiesyah</span> 👋</h1>
+                <p class="hero-text">
+                    I build clean, user-friendly systems using web development, database design,
+                    UI/UX fundamentals and system testing skills.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <button class="btn secondary-btn" id="openResumeHero" type="button">View Resume</button>
+                </div>
+
+                <div class="quick-stats">
+                    <div>
+                        <strong>3.96</strong>
+                        <small>Current CGPA</small>
+                    </div>
+                    <div>
+                        <strong>Dean's List</strong>
+                        <small>Every semester</small>
+                    </div>
+                    <div>
+                        <strong>UiTM</strong>
+                        <small>Perak, Tapah Campus</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-image-card">
+                <div class="image-frame">
+                    <img src="img/home-photo.jpg" class="home-img" alt="Nurul Aiesyah standing near pink cherry blossom decorations">
+                </div>
+                <div class="floating-card">
+                    <strong>Open to Internship</strong>
+                    <span>Web Development · QA Testing · UI/UX</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="project-section section-block">
+            <div class="section-title">
+                <p class="eyebrow">My Work</p>
+                <h2>Featured Projects</h2>
+                <p>Academic and ongoing projects that show my experience in web systems, app planning, databases and testing.</p>
+            </div>
+
+            <div class="project-container">
+                <article class="project-card featured-project">
+                    <div class="project-tag">Web System</div>
+                    <h3>MUNCH — Food Ordering & Restaurant Management Website</h3>
+                    <p>
+                        A restaurant ordering and management system with menu browsing, customer login,
+                        reservation functionality, staff ordering functions and owner reporting features.
+                    </p>
+                    <ul>
+                        <li>Designed the UI/UX and database structure.</li>
+                        <li>Developed core modules including landing page, login, reservation and staff ordering.</li>
+                        <li>Prepared ERD, UML diagrams and flowcharts for system documentation.</li>
+                    </ul>
+                    <div class="tech-list">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="munch-web.html" class="project-btn">View Project Details</a>
+                        <a href="munch-system-architecture.pdf" class="project-btn outline" target="_blank" rel="noopener noreferrer">View System Architecture</a>
+                    </div>
+                </article>
+
+                <article class="project-card featured-project database-project-card">
+                    <div class="project-tag database">Database System</div>
+                    <h3>Nasi Kandar Cik Yah — Food Ordering Database System</h3>
+                    <p>
+                        A group database system project for a nasi kandar food ordering scenario. The project focused on database design,
+                        ERD development, product/menu records and SQL queries for menu, order, sales and staff information.
+                    </p>
+                    <ul>
+                        <li>Prepared database structure using entities such as Orders, Sales, OrderMenu, Menu and Staff.</li>
+                        <li>Designed ERD and presented SQL queries using SELECT, WHERE, LIKE, IN, JOIN, aggregate functions, GROUP BY, HAVING and subqueries.</li>
+                        <li>Documented product lists, prices and query outputs in a group presentation slide.</li>
+                    </ul>
+                    <div class="tech-list">
+                        <span>MySQL</span><span>ERD</span><span>SQL Queries</span><span>Database Design</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="nasi-kandar-database.html" class="project-btn">View Project Details</a>
+                        <a href="nasi-kandar-database.html#report-section" class="project-btn outline">View Report</a>
+                        <a href="ict200-group-presentation.pdf" class="project-btn outline" target="_blank" rel="noopener noreferrer">View Slides</a>
+                    </div>
+                </article>
+
+                <article class="project-card featured-project">
+                    <div class="project-tag ongoing">Ongoing Individual Project</div>
+                    <h3>PawVenture — Pet Event Management App</h3>
+                    <p>
+                        PawVenture is a pet event management application for pet-related events, expos and animal activities in Malaysia.
+                        It helps users discover events, view event details, register or book tickets, check schedules and receive announcements.
+                    </p>
+                    <ul>
+                        <li>Planning user, organizer and admin modules.</li>
+                        <li>Designing event listing, ticket booking, announcements and vendor booth application features.</li>
+                        <li>Handling full development from UI/UX and database planning to frontend, backend, testing and documentation.</li>
+                    </ul>
+                    <div class="tech-list">
+                        <span>App Planning</span><span>UI/UX</span><span>Database Design</span><span>Testing</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-tag java">Java System</div>
+                    <h3>Food Donation Bank Operation System</h3>
+                    <p>
+                        A Java-based Food Donation & Hunger Relief System developed for SDG 2: Zero Hunger.
+                        The system manages food donation records and victim assistance using data structure concepts.
+                    </p>
+                    <ul>
+                        <li>Uses LinkedList to manage food donation records dynamically.</li>
+                        <li>Uses Queue to support fair First-In-First-Out victim assistance.</li>
+                        <li>Includes login, filtering, searching, updating, distribution and statistics features.</li>
+                    </ul>
+                    <div class="tech-list">
+                        <span>Java</span><span>BlueJ</span><span>OOP</span><span>LinkedList</span><span>Queue</span><span>File Handling</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="food-donation-report.html" class="project-btn">View Project Details</a>
+                        <a href="food-donation-report.html#slides-section" class="project-btn outline">View Slides</a>
+                        <a href="https://github.com/nrlsyhh-ops/food-donation-bank-system.git" class="project-btn outline" target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
+                        <a href="food-donation-final-report.pdf" class="project-btn outline" target="_blank" rel="noopener noreferrer">Open PDF</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-tag">System Design</div>
+                    <h3>HyperHive — Personalized Adaptive Learning System</h3>
+                    <p>
+                        A system design project for Sekolah Sri Acmar focused on improving students' study efficiency through
+                        Pomodoro tracking, personalized study planning, learning style preferences and progress tracking.
+                    </p>
+                    <ul>
+                        <li>Analysed system requirements and student learning challenges.</li>
+                        <li>Designed modules, flowcharts, pseudocode and expected screens.</li>
+                        <li>Prepared project report documentation and presentation slide materials.</li>
+                    </ul>
+                    <div class="tech-list">
+                        <span>System Analysis</span><span>Algorithm Design</span><span>Flowchart</span><span>Pseudocode</span><span>UX Thinking</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="personalized-adaptive-learning-system.html" class="project-btn">View Project Details</a>
+                        <a href="personalized-adaptive-learning-system.html#report-section" class="project-btn outline">View Report</a>
+                        <a href="personalized-adaptive-learning-system.html#slides-section" class="project-btn outline">View Slides</a>
+                        <a href="pals-presentation.pptx" class="project-btn outline" target="_blank" rel="noopener noreferrer">Download PowerPoint</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about-section section-block">
+            <div class="section-title">
+                <p class="eyebrow">About Me</p>
+                <h2>Computer Science student who enjoys building practical systems.</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card about-main">
+                    <h3>Profile Summary</h3>
+                    <p>
+                        I am a motivated and responsible Diploma in Computer Science student at Universiti Teknologi MARA (UiTM)
+                        Perak, Tapah Campus, maintaining a CGPA of 3.96 with consistent Dean's List achievements.
+                    </p>
+                    <p>
+                        I have experience developing academic projects involving object-oriented programming, database systems,
+                        web development and system testing using Java, C++, Visual Basic, HTML, CSS, JavaScript, PHP and MySQL.
+                    </p>
+					<p>
+						My industrial training period is from 7 September 2026 to 19 February 2027, with a duration of 24 weeks. 
+						My resume is available below for your reference. 
+					</p>
+					<p>
+						Feel free to reach out to me for any inquiries!
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Education</h3>
+                    <p><strong>Diploma in Computer Science</strong></p>
+                    <p>Universiti Teknologi MARA (UiTM) Perak, Tapah Campus</p>
+                    <p>September 2024 - Present</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Interests</h3>
+                    <p>Web Development, UI/UX, Database Systems, QA Testing, System Design and Software Development.</p>
+                </div>
+            </div>
+
+            <div class="skill-section">
+                <h2>Technical Skills</h2>
+                <div class="skills-container">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>Java</span>
+                    <span>C++</span>
+                    <span>Visual Basic</span>
+                    <span>Database Design</span>
+                    <span>Debugging</span>
+                    <span>Testing</span>
+                    <span>ERD & UML</span>
+                    <span>Flowcharts</span>
+                    <span>UI/UX Fundamentals</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section section-block">
+            <div class="section-title contact-title">
+                <p class="eyebrow">Contact</p>
+                <h2>Let's connect</h2>
+                <p>Feel free to reach out for internship opportunities, project discussions or collaboration.</p>
+            </div>
+
+            <div class="contact-grid">
+                <a class="contact-card" href="mailto:nurulaiesyahfatihah@gmail.com">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+                    </span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>nurulaiesyahfatihah@gmail.com</p>
+                    </div>
+                </a>
+
+                <a class="contact-card" href="https://www.linkedin.com/in/nurul-aiesyah-fatihah" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8h4V23h-4V8Zm7.5 0h3.84v2.05h.05c.53-1 1.84-2.05 3.79-2.05C19.73 8 20.5 10.67 20.5 14.14V23h-4v-7.85c0-1.87-.03-4.28-2.61-4.28-2.61 0-3.01 2.04-3.01 4.15V23h-4V8Z"/></svg>
+                    </span>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>nurul-aiesyah-fatihah</p>
+                    </div>
+                </a>
+
+                <a class="contact-card" href="https://github.com/nrlsyhh-ops" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2.01c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18.92-.26 1.9-.38 2.88-.39.98 0 1.96.13 2.88.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.18c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+                    </span>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>github.com/nrlsyhh-ops</p>
+                    </div>
+                </a>
+
+                <button class="contact-card resume-card" id="openResumeContact" type="button">
+                    <span class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6Zm-1 7V3.5L18.5 9H13ZM8 13h8v2H8v-2Zm0 4h8v2H8v-2Zm0-8h3v2H8V9Z"/></svg>
+                    </span>
+                    <div>
+                        <h3>Resume</h3>
+                        <p>Preview my resume in PDF popup</p>
+                    </div>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Resume Modal -->
+    <div class="modal" id="resumeModal" aria-hidden="true" role="dialog" aria-labelledby="resumeModalTitle">
+        <div class="modal-overlay" data-close-modal></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="resumeModalTitle">Nurul Aiesyah Resume</h2>
+                <button class="close-modal" type="button" data-close-modal aria-label="Close resume popup">×</button>
+            </div>
+            <iframe src="resume.pdf" title="Nurul Aiesyah Resume PDF"></iframe>
+            <div class="modal-actions">
+                <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Open in New Tab</a>
+                <a href="resume.pdf" download>Download Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

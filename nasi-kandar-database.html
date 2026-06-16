@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nasi Kandar Cik Yah Food Ordering Database System project by Nurul Aiesyah Fatihah.">
+    <title>Nasi Kandar Cik Yah Database System | Nurul Aiesyah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" class="logo">Nurul Aiesyah Fatihah Norazehasram</a>
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+        <ul class="link-group">
+            <li><a href="index.html#home" class="nav-link">Home</a></li>
+            <li><a href="index.html#projects" class="nav-link active">Projects</a></li>
+            <li><a href="index.html#about" class="nav-link">About</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="project-detail-page">
+        <section class="section-block detail-hero">
+            <div class="detail-hero-content">
+                <a href="index.html#projects" class="back-link">← Back to portfolio</a>
+                <p class="eyebrow">Database System · Group Project</p>
+                <h1>Nasi Kandar Cik Yah — Food Ordering Database System</h1>
+                <p class="hero-text">
+                    A database design and SQL project for a food ordering system. The project focused on organizing restaurant data,
+                    designing relationships between entities and writing SQL queries to support menu, order, sales and staff operations.
+                </p>
+                <div class="hero-actions">
+                    <a href="#report-section" class="btn primary-btn">View Final Report</a>
+                    <button class="btn secondary-btn" type="button" data-open-modal="slideModal">View Presentation Slides</button>
+                    <a href="ict200-group-presentation.pdf" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">Open Slides</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block detail-content-section">
+            <div class="detail-grid">
+                <article class="detail-card main-detail-card">
+                    <h2>Project Overview</h2>
+                    <p>
+                        This project was developed for the ICT200 course as a group presentation under the team name <strong>The Minions</strong>.
+                        The system represents a food ordering database for Nasi Kandar Cik Yah, including menu items, order records,
+                        staff handling, sales records and order-menu bridge data.
+                    </p>
+                    <p>
+                        The main goal was to design a structured relational database and demonstrate useful SQL statements that retrieve
+                        significant business information from single and related tables.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h2>My Role</h2>
+                    <p>
+                        <strong>Leader</strong> — contributed to planning, organizing the project flow, coordinating group work and preparing the presentation content.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h2>Tools & Concepts</h2>
+                    <div class="tech-list detail-tech-list">
+                        <span>MySQL</span>
+                        <span>Database Design</span>
+                        <span>ERD</span>
+                        <span>SQL SELECT</span>
+                        <span>JOIN</span>
+                        <span>Aggregate Functions</span>
+                        <span>GROUP BY</span>
+                        <span>HAVING</span>
+                        <span>Subqueries</span>
+                    </div>
+                </article>
+
+                <article class="detail-card main-detail-card">
+                    <h2>Database Scope</h2>
+                    <ul class="detail-list">
+                        <li><strong>Menu & product data:</strong> Roti canai, lauk-lauk, add-ons, drinks and set menu pricing.</li>
+                        <li><strong>ERD entities:</strong> Orders, Sales, OrderMenu as a bridge entity, Menu and Staff.</li>
+                        <li><strong>SQL query coverage:</strong> Basic SELECT, comparison operators, LIKE, IN, JOIN, aggregate functions, GROUP BY, HAVING and subqueries.</li>
+                        <li><strong>Business information:</strong> menu price filtering, highest menu price by category, daily sales, total quantity sold and incomplete/unpaid order tracking.</li>
+                    </ul>
+                </article>
+
+                <article id="report-section" class="detail-card main-detail-card pdf-viewer-card">
+                    <div class="slide-card-header">
+                        <div>
+                            <h2>Final Report PDF</h2>
+                            <p>
+                                View the full ICT200 final report for the Nasi Kandar Cik Yah Food Ordering Database System directly from this portfolio.
+                            </p>
+                        </div>
+                        <div class="project-actions compact-actions">
+                            <a href="cikyah-database-final-report.pdf" class="project-btn" target="_blank" rel="noopener noreferrer">Open Report</a>
+                            <a href="cikyah-database-final-report.pdf" class="project-btn outline" download>Download Report</a>
+                        </div>
+                    </div>
+                    <div class="pdf-preview-box">
+                        <iframe src="cikyah-database-final-report.pdf" title="Nasi Kandar Cik Yah Food Ordering Database System Final Report PDF"></iframe>
+                    </div>
+                </article>
+
+                <article class="detail-card main-detail-card slide-card">
+                    <div class="slide-card-header">
+                        <div>
+                            <h2>Presentation Slides</h2>
+                            <p>
+                                View the ICT200 group presentation slide directly from this portfolio.
+                            </p>
+                        </div>
+                        <button class="project-btn" type="button" data-open-modal="slideModal">View Slides</button>
+                    </div>
+                    <div class="slide-preview-box">
+                        <iframe src="ict200-group-presentation.pdf#view=FitH" title="ICT200 Group Presentation PDF preview"></iframe>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Slide Modal -->
+    <div class="modal" id="slideModal" aria-hidden="true" role="dialog" aria-labelledby="slideModalTitle">
+        <div class="modal-overlay" data-close-modal></div>
+        <div class="modal-content slide-modal-content">
+            <div class="modal-header">
+                <h2 id="slideModalTitle">ICT200 Group Presentation Slides</h2>
+                <button class="close-modal" type="button" data-close-modal aria-label="Close slide popup">×</button>
+            </div>
+            <iframe src="ict200-group-presentation.pdf" title="ICT200 Group Presentation PDF"></iframe>
+            <div class="modal-actions">
+                <a href="ict200-group-presentation.pdf" target="_blank" rel="noopener noreferrer">Open in New Tab</a>
+                <a href="ict200-group-presentation.pdf" download>Download Slides</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
